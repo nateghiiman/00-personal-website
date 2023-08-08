@@ -1,0 +1,56 @@
+@import "../sass-utils/variables";
+.mainbanner{
+    margin: 12px;
+    // border: solid 10px $color2;
+    background-image: linear-gradient( $color1, $color2);
+    border-radius: 40px;
+    justify-content: space-between  ;
+    div{
+        padding-left: 10%;
+        padding-top: 40px;
+        // max-width: 50vw;
+        p{
+            font-size:xx-large;
+            margin: 0px;
+            color: $color3;
+        }
+        h1{
+            color: $color4;
+        }
+        address{
+            color: $color4;
+            a{
+                color: $color3;
+            }
+        }
+    }
+    img{
+        margin: auto;
+        border-radius: 30px;
+        // max-width:70vw;
+        width: 80%;
+        margin: 5% 10% 5%;
+        // justify-content: center;
+        // justify-items: center;
+        // align-items: center;
+        // align-content: center;
+        // max-height: 50vh;
+        // height:max-content;
+    }
+    
+}
+
+
+@media screen and (min-width: 700px){
+    .mainbanner{
+        display: flex;
+        div{
+            padding-left: 10%;
+            padding-top: 80px;
+        }
+        img{
+            max-width:30vw; 
+            margin: 40px;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '../sass-utils/variables';
+
+.header1{
+    display: flex;
+    background-color: $color3;
+    color: $color1;
+    // height: 30px;
+    justify-content:flex-end;
+    align-items: center;
+   
+    p {
+    text-transform: capitalize;
+    margin: 0px;
+    }
+    svg{
+        // background-color: aqua;
+        height: 40px;
+        padding: 4px;
+        color: white;
+        max-width: 60px;}
+}

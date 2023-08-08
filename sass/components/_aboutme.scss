@@ -1,0 +1,94 @@
+@import '../sass-utils/variables';
+.aboutme{
+    margin: 12px;
+    h2,p,h3,ul,.link{
+        padding-left: 30px;
+    }
+    h3{
+        // color: $color3;
+        
+        -webkit-text-stroke-color: $color1;
+    }
+
+.boxes{
+    .box{
+        
+        border-radius: 40px;
+        min-height: 400px;
+        padding: 1px 30px;
+        
+        div{
+            img{
+                width: 160px;
+                // float: left;
+                padding: 0px 8px;
+                border-radius: 20px;
+            }
+            p{
+                text-align: justify;
+                padding: 8px;
+            }
+        }
+    }
+    .box1{
+        background-color: $color1;
+        h4{
+            color: $color3;
+        }
+        img{float: left;}
+        p{
+            color: $color4;
+            a{color: $color3;}  
+        }
+    }
+    .box2{
+        background-color: $color3;
+        h4{
+            color: $color1;
+        }
+        img{float: right;}
+        p{
+            color: $color2;
+            a{color: $color1;} 
+        }
+    }
+}
+
+
+.rowbox{
+    background-color: $color1;
+    border-radius: 20px;
+    // min-height: 400px;
+    padding:10px;
+    ul{
+        display: flex;
+        gap: 80px;
+        padding: 0px;
+        overflow-x: scroll;
+       padding-bottom: 20px;
+        li{
+            display: flex;
+            gap: 12px;
+            flex-direction: column;
+            max-width: 150px;
+            text-align: center;
+            align-items: center;
+            justify-content: end;
+            a{
+                color: $color4;
+            }
+            img{
+                width: 100px;
+            }
+        }
+    }
+}
+}
+
+
+@media screen and (min-width:700px) {
+    .boxes{
+        display: flex;
+        gap: 10px;
+    }
+}

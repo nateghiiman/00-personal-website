@@ -1,0 +1,28 @@
+@import "../sass-utils/variables";
+.socialbox{
+    padding: 0px 12px;
+    // background-image:  linear-gradient(white,$color4 ,$color3, $color2) ;
+    background-color: $color3;
+    // max-height: 200px;
+
+    h3{
+        padding-left: 30px;
+        margin: 4px 0px 12px;
+    }
+
+    ul{
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        gap: 12px;
+        padding: 0px 30px;
+        // height: 100px;
+        li{
+
+            a{
+                svg{
+                    max-height: 40px;
+                }
+            }
+        }
+    }
+}

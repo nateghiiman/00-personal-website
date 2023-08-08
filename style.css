@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v5.0.1 | 20191019
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Sora:400");
+p {
+  box-sizing: border-box;
+  padding-bottom: 0 px;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, menu, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+main, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, menu, nav, section {
+  display: block;
+}
+
+/* HTML5 hidden-attribute fix for newer browsers */
+*[hidden] {
+  display: none;
+}
+
+body {
+  line-height: 1;
+}
+
+menu, ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+body {
+  background: white;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Sora", sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small, .text_small {
+  font-size: 0.8rem;
+}
+
+.header1 {
+  display: flex;
+  background-color: #F6C90E;
+  color: #303841;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header1 p {
+  text-transform: capitalize;
+  margin: 0px;
+}
+.header1 svg {
+  height: 40px;
+  padding: 4px;
+  color: white;
+  max-width: 60px;
+}
+
+.mainbanner {
+  margin: 12px;
+  background-image: linear-gradient(#303841, #3A4750);
+  border-radius: 40px;
+  justify-content: space-between;
+}
+.mainbanner div {
+  padding-left: 10%;
+  padding-top: 40px;
+}
+.mainbanner div p {
+  font-size: xx-large;
+  margin: 0px;
+  color: #F6C90E;
+}
+.mainbanner div h1 {
+  color: #EEEEEE;
+}
+.mainbanner div address {
+  color: #EEEEEE;
+}
+.mainbanner div address a {
+  color: #F6C90E;
+}
+.mainbanner img {
+  margin: auto;
+  border-radius: 30px;
+  width: 80%;
+  margin: 5% 10% 5%;
+}
+
+@media screen and (min-width: 700px) {
+  .mainbanner {
+    display: flex;
+  }
+  .mainbanner div {
+    padding-left: 10%;
+    padding-top: 80px;
+  }
+  .mainbanner img {
+    max-width: 30vw;
+    margin: 40px;
+  }
+}
+.aboutme {
+  margin: 12px;
+}
+.aboutme h2, .aboutme p, .aboutme h3, .aboutme ul, .aboutme .link {
+  padding-left: 30px;
+}
+.aboutme h3 {
+  -webkit-text-stroke-color: #303841;
+}
+.aboutme .boxes .box {
+  border-radius: 40px;
+  min-height: 400px;
+  padding: 1px 30px;
+}
+.aboutme .boxes .box div img {
+  width: 160px;
+  padding: 0px 8px;
+  border-radius: 20px;
+}
+.aboutme .boxes .box div p {
+  text-align: justify;
+  padding: 8px;
+}
+.aboutme .boxes .box1 {
+  background-color: #303841;
+}
+.aboutme .boxes .box1 h4 {
+  color: #F6C90E;
+}
+.aboutme .boxes .box1 img {
+  float: left;
+}
+.aboutme .boxes .box1 p {
+  color: #EEEEEE;
+}
+.aboutme .boxes .box1 p a {
+  color: #F6C90E;
+}
+.aboutme .boxes .box2 {
+  background-color: #F6C90E;
+}
+.aboutme .boxes .box2 h4 {
+  color: #303841;
+}
+.aboutme .boxes .box2 img {
+  float: right;
+}
+.aboutme .boxes .box2 p {
+  color: #3A4750;
+}
+.aboutme .boxes .box2 p a {
+  color: #303841;
+}
+.aboutme .rowbox {
+  background-color: #303841;
+  border-radius: 20px;
+  padding: 10px;
+}
+.aboutme .rowbox ul {
+  display: flex;
+  gap: 80px;
+  padding: 0px;
+  overflow-x: scroll;
+  padding-bottom: 20px;
+}
+.aboutme .rowbox ul li {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  max-width: 150px;
+  text-align: center;
+  align-items: center;
+  justify-content: end;
+}
+.aboutme .rowbox ul li a {
+  color: #EEEEEE;
+}
+.aboutme .rowbox ul li img {
+  width: 100px;
+}
+
+@media screen and (min-width: 700px) {
+  .boxes {
+    display: flex;
+    gap: 10px;
+  }
+}
+.socialbox {
+  padding: 0px 12px;
+  background-color: #F6C90E;
+}
+.socialbox h3 {
+  padding-left: 30px;
+  margin: 4px 0px 12px;
+}
+.socialbox ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+  padding: 0px 30px;
+}
+.socialbox ul li a svg {
+  max-height: 40px;
+}/*# sourceMappingURL=style.css.map */
